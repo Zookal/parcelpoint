@@ -1,0 +1,22 @@
+{
+    "name": "zookal/parcelpoint",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "type": "magento-module",
+    "description": "Parcelpoint api integration",
+    "authors": [
+        {
+            "name": "Abiral Shakya",
+            "email": "abiral@zookal.com"
+        },
+        {
+            "name": "Chris Zaharia",
+            "email": "chris@zookal.com"
+        }
+    ],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
