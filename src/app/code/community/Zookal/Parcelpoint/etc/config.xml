@@ -46,7 +46,7 @@
                     <config_path>parcelpointapi/booking/scheduler_cron_expr</config_path>
                 </schedule>
                 <run>
-                    <model>zookalparcelpoint/cron::sendParcelpointBooking</model>
+                    <model>zookalparcelpoint/cron::book</model>
                 </run>
             </parcelpoint_syncbooking>
         </jobs>
