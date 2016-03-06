@@ -71,7 +71,7 @@ class Zookal_Parcelpoint_Model_Api_Booking
             return false;
         }
         $data_string = json_encode($request);
-        $apiUrl = $testMode ? self::API_URL_TEST : API_URL_PRODUCTION;
+        $apiUrl = $testMode ? self::API_URL_TEST : self::API_URL_PRODUCTION;
         $url = $apiUrl . "?apiKey=" . $apiKey;
         try {
             $ch = curl_init($url);
